@@ -1,0 +1,49 @@
+body{
+    
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    /* shorter way of writing font */
+    font: normal 16px arial, helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 50;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.my-list li:nth-child(1){
+    font-size: big;
+    color: blue;
+}
+.my-list li:nth-child(2){
+    color: grey;
+}
+.my-list li:nth-child(3){
+    font-size: 8px;
+}
+.my-list li:nth-child(4){
+    text-align: right;
+    font-size: bold;
+    color: orange;
+}
+.my-list li:nth-child(5){
+    text-align: justify;
+    font-family: tahoma;
+    color: pink;
+}
+.my-list li:nth-child(6){
+    text-decoration: underline;
+    color: purple;
+    font-family: roboto, helvetica, sans-serif;
+}
+.my-list li:nth-child(7){
+    background-color: yellow;
+    font-size: bold;
+    font-family: cursive, comic sans ms, comic sans;
+    line-height: 25px;
+
+}
+
